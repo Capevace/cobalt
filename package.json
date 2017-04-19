@@ -1,0 +1,18 @@
+{
+  "name": "cobalt",
+  "version": "0.0.1",
+  "description": "A small markdown like file format with meta support.",
+  "main": "index.js",
+  "repository": "https://github.com/Capevace/cobalt.git",
+  "author": "Lukas von Mateffy (@Capevace)",
+  "license": "MIT",
+  "dependencies": {
+    "trim-off-newlines": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
