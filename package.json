@@ -1,8 +1,8 @@
 {
-  "name": "cobalt",
-  "version": "0.0.1",
+  "name": "cobalt-markdown",
+  "version": "1.0.0",
   "description": "A small markdown like file format with meta support.",
-  "main": "index.js",
+  "main": "cobalt-markdown.js",
   "repository": "https://github.com/Capevace/cobalt.git",
   "author": "Lukas von Mateffy (@Capevace)",
   "license": "MIT",

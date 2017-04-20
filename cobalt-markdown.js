@@ -2,7 +2,7 @@ const fs = require('fs');
 const trimOffNewlines = require('trim-off-newlines');
 
 /**
- * Parse a COMD string.
+ * Parse a cobalt-markdown string.
  * @param  {String} content The content to be parsed.
  * @return {Object}         The parsed content {meta, content}
  */
@@ -51,7 +51,9 @@ function generateCobaltMarkdown(meta, content = '', readable = false) {
       ? JSON.stringify(meta, null, 2)
       : JSON.stringify(meta);
 
-    return `${metaJson}\n---\n${readable ? '\n' : ''}${content}${readable ? '\n' : ''}`;
+    return `${metaJson}\n---\n${readable ? '\n' : ''}${content}${readable
+      ? '\n'
+      : ''}`;
   } catch (e) {
     throw new Error('The supplied COMD meta could not be parsed.');
   }
