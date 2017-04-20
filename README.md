@@ -10,6 +10,12 @@
 
 > **cobalt-markdown** gives the ability to store JSON metadata for the content right in the same file.
 
+```bash
+npm install cobalt-markdown --save
+# or
+yarn add cobalt-markdown
+```
+
 ## How it works
 The cobalt-markdown file (*.comd*) is divided into to parts, separated by a combination of characters.
 
