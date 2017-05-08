@@ -3,7 +3,6 @@
   Parser for markdown-like file-format with support for meta data.
 </h4>
 <p align="center">
-  <img alt="license" src="https://img.shields.io/github/license/capevace/halbert.svg">
   <img alt="release" src="https://img.shields.io/github/release/capevace/cobalt.svg">
   <img alt="npm downloads" src="https://img.shields.io/npm/dt/cobalt-markdown.svg">
 </p>
